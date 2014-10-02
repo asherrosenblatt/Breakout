@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42162203198C1D40004B8F07 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42162202198C1D40004B8F07 /* Media.xcassets */; };
 		BAD5B9D3198ADBBF00A1351C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9D2198ADBBF00A1351C /* Foundation.framework */; };
 		BAD5B9D5198ADBBF00A1351C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9D4198ADBBF00A1351C /* CoreGraphics.framework */; };
 		BAD5B9D7198ADBBF00A1351C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9D6198ADBBF00A1351C /* UIKit.framework */; };
@@ -15,12 +16,14 @@
 		BAD5B9E3198ADBBF00A1351C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5B9E2198ADBBF00A1351C /* AppDelegate.m */; };
 		BAD5B9E6198ADBBF00A1351C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD5B9E4198ADBBF00A1351C /* Main.storyboard */; };
 		BAD5B9E9198ADBBF00A1351C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5B9E8198ADBBF00A1351C /* ViewController.m */; };
-		BAD5B9EB198ADBBF00A1351C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD5B9EA198ADBBF00A1351C /* Images.xcassets */; };
 		BAD5B9F2198ADBBF00A1351C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9F1198ADBBF00A1351C /* XCTest.framework */; };
 		BAD5B9F3198ADBBF00A1351C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9D2198ADBBF00A1351C /* Foundation.framework */; };
 		BAD5B9F4198ADBBF00A1351C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD5B9D6198ADBBF00A1351C /* UIKit.framework */; };
 		BAD5B9FC198ADBBF00A1351C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD5B9FA198ADBBF00A1351C /* InfoPlist.strings */; };
 		BAD5B9FE198ADBBF00A1351C /* BreakoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5B9FD198ADBBF00A1351C /* BreakoutTests.m */; };
+		BAD5BA09198ADBEF00A1351C /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5BA08198ADBEF00A1351C /* PaddleView.m */; };
+		BAD5BA10198ADFF300A1351C /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5BA0F198ADFF300A1351C /* BallView.m */; };
+		BAD5BA13198AE6D200A1351C /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD5BA12198AE6D200A1351C /* BlockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42162202198C1D40004B8F07 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		BAD5B9CF198ADBBF00A1351C /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD5B9D2198ADBBF00A1351C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAD5B9D4198ADBBF00A1351C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +51,17 @@
 		BAD5B9E5198ADBBF00A1351C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAD5B9E7198ADBBF00A1351C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAD5B9E8198ADBBF00A1351C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BAD5B9EA198ADBBF00A1351C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAD5B9F0198ADBBF00A1351C /* BreakoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD5B9F1198ADBBF00A1351C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BAD5B9F9198ADBBF00A1351C /* BreakoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakoutTests-Info.plist"; sourceTree = "<group>"; };
 		BAD5B9FB198ADBBF00A1351C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAD5B9FD198ADBBF00A1351C /* BreakoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutTests.m; sourceTree = "<group>"; };
+		BAD5BA07198ADBEF00A1351C /* PaddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleView.h; sourceTree = "<group>"; };
+		BAD5BA08198ADBEF00A1351C /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddleView.m; sourceTree = "<group>"; };
+		BAD5BA0E198ADFF300A1351C /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		BAD5BA0F198ADFF300A1351C /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		BAD5BA11198AE6D200A1351C /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		BAD5BA12198AE6D200A1351C /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +121,19 @@
 		BAD5B9D8198ADBBF00A1351C /* Breakout */ = {
 			isa = PBXGroup;
 			children = (
+				BAD5BA11198AE6D200A1351C /* BlockView.h */,
+				BAD5BA12198AE6D200A1351C /* BlockView.m */,
+				BAD5BA0E198ADFF300A1351C /* BallView.h */,
+				BAD5BA0F198ADFF300A1351C /* BallView.m */,
+				BAD5BA07198ADBEF00A1351C /* PaddleView.h */,
+				BAD5BA08198ADBEF00A1351C /* PaddleView.m */,
 				BAD5B9E1198ADBBF00A1351C /* AppDelegate.h */,
 				BAD5B9E2198ADBBF00A1351C /* AppDelegate.m */,
 				BAD5B9E4198ADBBF00A1351C /* Main.storyboard */,
 				BAD5B9E7198ADBBF00A1351C /* ViewController.h */,
 				BAD5B9E8198ADBBF00A1351C /* ViewController.m */,
-				BAD5B9EA198ADBBF00A1351C /* Images.xcassets */,
 				BAD5B9D9198ADBBF00A1351C /* Supporting Files */,
+				42162202198C1D40004B8F07 /* Media.xcassets */,
 			);
 			path = Breakout;
 			sourceTree = "<group>";
@@ -228,8 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD5B9EB198ADBBF00A1351C /* Images.xcassets in Resources */,
 				BAD5B9DD198ADBBF00A1351C /* InfoPlist.strings in Resources */,
+				42162203198C1D40004B8F07 /* Media.xcassets in Resources */,
 				BAD5B9E6198ADBBF00A1351C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD5BA13198AE6D200A1351C /* BlockView.m in Sources */,
+				BAD5BA09198ADBEF00A1351C /* PaddleView.m in Sources */,
 				BAD5B9E9198ADBBF00A1351C /* ViewController.m in Sources */,
+				BAD5BA10198ADFF300A1351C /* BallView.m in Sources */,
 				BAD5B9E3198ADBBF00A1351C /* AppDelegate.m in Sources */,
 				BAD5B9DF198ADBBF00A1351C /* main.m in Sources */,
 			);
@@ -376,6 +394,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breakout/Breakout-Prefix.pch";
 				INFOPLIST_FILE = "Breakout/Breakout-Info.plist";
@@ -389,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breakout/Breakout-Prefix.pch";
 				INFOPLIST_FILE = "Breakout/Breakout-Info.plist";
@@ -456,6 +482,7 @@
 				BAD5BA03198ADBBF00A1351C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAD5BA04198ADBBF00A1351C /* Build configuration list for PBXNativeTarget "BreakoutTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +491,7 @@
 				BAD5BA06198ADBBF00A1351C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
